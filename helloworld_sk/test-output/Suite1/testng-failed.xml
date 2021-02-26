@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" parallel="classes">
+  <test thread-count="5" name="Test1(failed)" parallel="classes">
+    <classes>
+      <class name="helloworld_sk.TestNG_Demo2">
+        <methods>
+          <include name="wrapUp"/>
+          <include name="googleSearch2"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- helloworld_sk.TestNG_Demo2 -->
+      <class name="helloworld_sk.TestNG_Demo">
+        <methods>
+          <include name="setUp"/>
+          <include name="googleSearch"/>
+          <include name="wrapUp"/>
+        </methods>
+      </class> <!-- helloworld_sk.TestNG_Demo -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
